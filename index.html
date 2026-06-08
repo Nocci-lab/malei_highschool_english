@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Malei High School English</title>
+  <style>
+    :root {
+      --bg1: #fff7ed;
+      --bg2: #eef2ff;
+      --main: #f97316;
+      --sub: #4f46e5;
+      --text: #1f2937;
+      --card: rgba(255, 255, 255, 0.9);
+      --shadow: 0 10px 25px rgba(31, 41, 55, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, #fde68a 0, transparent 28%),
+        radial-gradient(circle at bottom right, #c7d2fe 0, transparent 32%),
+        linear-gradient(135deg, var(--bg1), var(--bg2));
+      min-height: 100vh;
+    }
+
+    header {
+      text-align: center;
+      padding: 46px 18px 24px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 3.8rem);
+      letter-spacing: 0.02em;
+    }
+
+    .subtitle {
+      margin-top: 12px;
+      font-size: 1.05rem;
+      color: #4b5563;
+    }
+
+    main {
+      width: min(1100px, 92vw);
+      margin: 0 auto;
+      padding: 16px 0 48px;
+    }
+
+    .section-title {
+      margin: 28px 0 14px;
+      font-size: 1.35rem;
+      border-left: 8px solid var(--main);
+      padding-left: 12px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      display: block;
+      min-height: 96px;
+      padding: 20px;
+      text-decoration: none;
+      color: var(--text);
+      background: var(--card);
+      border: 1px solid rgba(255, 255, 255, 0.8);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+      transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card::after {
+      content: "OPEN";
+      position: absolute;
+      right: 16px;
+      bottom: 14px;
+      color: white;
+      background: linear-gradient(135deg, var(--main), var(--sub));
+      font-size: 0.72rem;
+      font-weight: 800;
+      padding: 6px 10px;
+      border-radius: 999px;
+      letter-spacing: 0.06em;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 30px rgba(31, 41, 55, 0.18);
+      border-color: rgba(249, 115, 22, 0.4);
+    }
+
+    .title {
+      display: block;
+      font-weight: 800;
+      font-size: 1.08rem;
+      line-height: 1.35;
+      padding-right: 62px;
+    }
+
+    .url {
+      display: block;
+      margin-top: 10px;
+      font-size: 0.78rem;
+      color: #6b7280;
+      word-break: break-all;
+      padding-right: 60px;
+    }
+
+    footer {
+      text-align: center;
+      color: #6b7280;
+      padding: 18px;
+      font-size: 0.88rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Malei High School English</h1>
+    <p class="subtitle">単語ゲーム・スペリングテスト・フレーズ練習</p>
+  </header>
+
+  <main>
+    <h2 class="section-title">Lesson Menu</h2>
+    <div class="grid">
+      <a class="card" href="https://nocci-lab.github.io/malei_highschool_english/Laughter_without_Boarders_Spelling_Test_1.html">
+        <span class="title">Laughter without Boarders Spelling Test 1</span>
+        <span class="url">Laughter_without_Boarders_Spelling_Test_1.html</span>
+      </a>
+      <a class="card" href="https://nocci-lab.github.io/malei_highschool_english/Laughter_without_Boarders_Spelling_Test_2.html">
+        <span class="title">Laughter without Boarders Spelling Test 2</span>
+        <span class="url">Laughter_without_Boarders_Spelling_Test_2.html</span>
+      </a>
+      <a class="card" href="https://nocci-lab.github.io/malei_highschool_english/Laughter_without_Boarders_phrases_and_other_expressions_1.html">
+        <span class="title">Laughter without Boarders phrases and other expressions 1</span>
+        <span class="url">Laughter_without_Boarders_phrases_and_other_expressions_1.html</span>
+      </a>
+      <a class="card" href="https://nocci-lab.github.io/malei_highschool_english/Laughter_without_Boarders_phrases_and_other_expressions_2.html">
+        <span class="title">Laughter without Boarders phrases and other expressions 2</span>
+        <span class="url">Laughter_without_Boarders_phrases_and_other_expressions_2.html</span>
+      </a>
+      <a class="card" href="https://nocci-lab.github.io/malei_highschool_english/Laughter_without_Boarders_単語ゲーム1.html">
+        <span class="title">Laughter without Boarders 単語ゲーム 1</span>
+        <span class="url">Laughter_without_Boarders_単語ゲーム1.html</span>
+      </a>
+      <a class="card" href="https://nocci-lab.github.io/malei_highschool_english/Laughter_without_Boarders_単語ゲーム2.html">
+        <span class="title">Laughter without Boarders 単語ゲーム 2</span>
+        <span class="url">Laughter_without_Boarders_単語ゲーム2.html</span>
+      </a>
+      <a class="card" href="https://nocci-lab.github.io/malei_highschool_english/Laughter_without_Boarders_単語ゲーム3.html">
+        <span class="title">Laughter without Boarders 単語ゲーム 3</span>
+        <span class="url">Laughter_without_Boarders_単語ゲーム3.html</span>
+      </a>
+      <a class="card" href="https://nocci-lab.github.io/malei_highschool_english/Laughter_without_Boarders_単語ゲーム4.html">
+        <span class="title">Laughter without Boarders 単語ゲーム 4</span>
+        <span class="url">Laughter_without_Boarders_単語ゲーム4.html</span>
+      </a>
+      <a class="card" href="https://nocci-lab.github.io/malei_highschool_english/The%20Ongoing%20Voyage%20of%20Curry_単語ゲーム1.html">
+        <span class="title">The Ongoing Voyage of Curry 単語ゲーム 1</span>
+        <span class="url">The Ongoing Voyage of Curry_単語ゲーム1.html</span>
+      </a>
+      <a class="card" href="https://nocci-lab.github.io/malei_highschool_english/The%20Ongoing%20Voyage%20of%20Curry_単語ゲーム2.html">
+        <span class="title">The Ongoing Voyage of Curry 単語ゲーム 2</span>
+        <span class="url">The Ongoing Voyage of Curry_単語ゲーム2.html</span>
+      </a>
+      <a class="card" href="https://nocci-lab.github.io/malei_highschool_english/The_Ongoing_Voyage_of_Curry_Spelling_Test_1.html">
+        <span class="title">The Ongoing Voyage of Curry Spelling Test 1</span>
+        <span class="url">The_Ongoing_Voyage_of_Curry_Spelling_Test_1.html</span>
+      </a>
+      <a class="card" href="https://nocci-lab.github.io/malei_highschool_english/The_Ongoing_Voyage_of_Curry_Spelling_Test_2.html">
+        <span class="title">The Ongoing Voyage of Curry Spelling Test 2</span>
+        <span class="url">The_Ongoing_Voyage_of_Curry_Spelling_Test_2.html</span>
+      </a>
+      <a class="card" href="https://nocci-lab.github.io/malei_highschool_english/The_Ongoing_Voyages_of_Curry_phrases_and_other_expressions_1.html">
+        <span class="title">The Ongoing Voyages of Curry phrases and other expressions 1</span>
+        <span class="url">The_Ongoing_Voyages_of_Curry_phrases_and_other_expressions_1.html</span>
+      </a>
+      <a class="card" href="https://nocci-lab.github.io/malei_highschool_english/The_Ongoing_Voyages_of_Curry_phrases_and_other_expressions_2.html">
+        <span class="title">The Ongoing Voyages of Curry phrases and other expressions 2</span>
+        <span class="url">The_Ongoing_Voyages_of_Curry_phrases_and_other_expressions_2.html</span>
+      </a>
+      <a class="card" href="https://nocci-lab.github.io/malei_highschool_english/The_Ongoing_Voyages_of_Curry_phrases_and_other_expressions_3.html">
+        <span class="title">The Ongoing Voyages of Curry phrases and other expressions 3</span>
+        <span class="url">The_Ongoing_Voyages_of_Curry_phrases_and_other_expressions_3.html</span>
+      </a>
+      <a class="card" href="https://nocci-lab.github.io/malei_highschool_english/The_Ongoing_Voyages_of_Curry_phrases_and_other_expressions_4.html">
+        <span class="title">The Ongoing Voyages of Curry phrases and other expressions 4</span>
+        <span class="url">The_Ongoing_Voyages_of_Curry_phrases_and_other_expressions_4.html</span>
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    © Nocci-lab
+  </footer>
+</body>
+</html>
