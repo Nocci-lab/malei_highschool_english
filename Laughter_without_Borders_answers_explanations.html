@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Laughter without Borders 答えと解説</title>
+<style>
+  :root{
+    --green:#2f7d5b;
+    --light:#eef7f2;
+    --accent:#f4b942;
+    --ink:#24302b;
+    --muted:#66736d;
+    --card:#ffffff;
+    --line:#d8e5de;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","Yu Gothic",Meiryo,sans-serif;
+    color:var(--ink);
+    background:linear-gradient(180deg,#f8fbf9 0%,#eef7f2 100%);
+    line-height:1.75;
+  }
+  header{
+    background:linear-gradient(135deg,var(--green),#4fa37b);
+    color:white;
+    padding:28px 18px 24px;
+    text-align:center;
+  }
+  header h1{margin:0;font-size:clamp(24px,4vw,42px);letter-spacing:.02em;}
+  header p{margin:8px 0 0;font-size:15px;opacity:.95;}
+  .wrap{max-width:980px;margin:0 auto;padding:20px 14px 60px;}
+  .toolbar{
+    display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:12px 0 24px;
+  }
+  button,.jump a{
+    border:0;border-radius:999px;padding:10px 16px;background:white;color:var(--green);
+    box-shadow:0 2px 8px rgba(0,0,0,.08);font-weight:700;cursor:pointer;text-decoration:none;display:inline-block;
+  }
+  button:hover,.jump a:hover{transform:translateY(-1px);}
+  .note{background:#fff8e7;border-left:6px solid var(--accent);padding:12px 14px;border-radius:12px;margin:10px 0 22px;}
+  section.part{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:18px;margin:18px 0 24px;box-shadow:0 6px 22px rgba(29,79,55,.08);}
+  .part h2{margin:0 0 12px;color:var(--green);font-size:28px;border-bottom:3px solid var(--light);padding-bottom:8px;}
+  .block{margin:18px 0;padding:14px;border-radius:16px;background:#fbfdfc;border:1px solid var(--line);}
+  .block h3{margin:0 0 10px;font-size:20px;color:#315c48;display:flex;align-items:center;gap:8px;}
+  .tag{font-size:13px;background:var(--light);color:var(--green);padding:2px 9px;border-radius:999px;}
+  ol{padding-left:1.4em;margin:8px 0;}
+  li{margin:8px 0;}
+  .answer{font-weight:800;color:#1f6f4d;}
+  .jp{color:var(--muted);font-size:14px;}
+  details{border:1px solid var(--line);background:white;border-radius:12px;margin:8px 0;padding:8px 10px;}
+  summary{cursor:pointer;font-weight:700;color:#345c49;}
+  .explain{margin-top:6px;color:#4a5b53;font-size:15px;}
+  table{width:100%;border-collapse:collapse;background:white;border-radius:12px;overflow:hidden;margin:8px 0;}
+  th,td{border:1px solid var(--line);padding:9px 10px;vertical-align:top;}
+  th{background:var(--light);color:#24513d;}
+  .tf{font-size:22px;font-weight:900;}
+  .true{color:#1f8a56}.false{color:#d34a3a}
+  .small{font-size:13px;color:var(--muted);}
+  .hide .answers .answer, .hide .answers .tf{filter:blur(5px);}
+  .hide .answers details .answer{filter:blur(5px);}
+  @media print{
+    header,.toolbar,.note{display:none;}
+    body{background:white;}
+    section.part{box-shadow:none;page-break-inside:avoid;}
+    details{break-inside:avoid;}
+    details:not([open]) > *:not(summary){display:block;}
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Laughter without Borders</h1>
+  <p>ワーク答えと解説 HTML</p>
+</header>
+<div class="wrap" id="page">
+  <div class="toolbar jump">
+    <button onclick="document.getElementById('page').classList.toggle('hide')">答えを隠す / 表示</button>
+    <button onclick="window.print()">印刷</button>
+    <a href="#part1">Part 1</a><a href="#part2">Part 2</a><a href="#part3">Part 3</a><a href="#part4">Part 4</a>
+  </div>
+  <div class="note">写真から読み取れる範囲で作成しています。授業用に、解説は短めで確認しやすい形にしました。</div>
+
+  <section class="part answers" id="part1">
+    <h2>Part 1</h2>
+    <div class="block">
+      <h3>① New Words <span class="tag">単語</span></h3>
+      <ol>
+        <li>We heard <span class="answer">laughter</span> from the next room at that time.<br><span class="jp">laughter = 笑い声</span></li>
+        <li>I think your voice has the power to <span class="answer">attract</span> people.<br><span class="jp">attract = 引きつける、魅了する</span></li>
+        <li>I had such a <span class="answer">curious</span> dream.<br><span class="jp">curious = 奇妙な、不思議な</span></li>
+        <li>Bill is a skillful <span class="answer">performer</span> on the trumpet.<br><span class="jp">performer = 演奏者、演者</span></li>
+        <li>I had a sharp pain in my <span class="answer">stomach</span> last night.<br><span class="jp">stomach = 胃、おなか</span></li>
+        <li>Hannah's movements are <span class="answer">elegant</span>, probably because she is learning ballet.<br><span class="jp">elegant = 優雅な</span></li>
+        <li>After some <span class="answer">reflection</span>, I decided to accept the job offer.<br><span class="jp">after some reflection = よく考えた末に</span></li>
+        <li>At the school, you can learn the <span class="answer">craft</span> of jewelry making.<br><span class="jp">craft = 技、工芸</span></li>
+      </ol>
+    </div>
+
+    <div class="block">
+      <h3>② Idioms & Expressions <span class="tag">表現</span></h3>
+      <ol>
+        <li>We will <span class="answer">interview</span> our principal tomorrow.<br><span class="jp">interview = インタビューする</span></li>
+        <li>After the Rugby World Cup, many people <span class="answer">became interested in</span> rugby.<br><span class="jp">become interested in ~ = 〜に興味を持つ</span></li>
+        <li>When will you <span class="answer">come back to</span> Japan?<br><span class="jp">come back to ~ = 〜に戻ってくる</span></li>
+        <li>Jason <span class="answer">was eager to</span> stay at a traditional Japanese inn in Kyoto.<br><span class="jp">be eager to do = 〜したがっている</span></li>
+      </ol>
+    </div>
+
+    <div class="block">
+      <h3>③ Grammar <span class="tag">時制の一致</span></h3>
+      <ol>
+        <li>He was always saying he <span class="answer">wanted</span> to visit Japan's old capital.</li>
+        <li>My mother said she <span class="answer">would be</span> coming home late.</li>
+        <li>I didn't know that he <span class="answer">had decided</span> to study abroad.</li>
+      </ol>
+      <details open><summary>解説</summary><div class="explain">主節が過去形になると、後ろの文も過去にずれます。want → wanted、will be → would be、decided → had decided になります。</div></details>
+    </div>
+
+    <div class="block">
+      <h3>④ イラスト問題</h3>
+      <ol>
+        <li>Really? I didn't know that <span class="answer">Jill would move to Kyoto</span>.</li>
+        <li>Yes. I knew that <span class="answer">Ken had appeared on TV last week</span>.</li>
+      </ol>
+      <details><summary>解説</summary><div class="explain">「will move」は、過去の会話の中では would move。「appeared」は、その時点より前のことなので had appeared が自然です。</div></details>
+    </div>
+
+    <div class="block">
+      <h3>⑤ Comprehension <span class="tag">内容一致</span></h3>
+      <table>
+        <tr><th>番号</th><th>答え</th><th>理由</th></tr>
+        <tr><td>(1)</td><td class="tf false">F</td><td>大学生のときに見たのは日本ではなく、彼の国で行われた茂山家の公演です。</td></tr>
+        <tr><td>(2)</td><td class="tf true">T</td><td>声やイントネーションだけでなく、動きの優雅さにも魅了されました。</td></tr>
+        <tr><td>(3)</td><td class="tf false">F</td><td>彼は日本語をよく理解できなかったと言っています。</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <section class="part answers" id="part2">
+    <h2>Part 2</h2>
+    <div class="block">
+      <h3>① New Words <span class="tag">単語</span></h3>
+      <ol>
+        <li>After many <span class="answer">discussions</span>, we decided to start a new project.</li>
+        <li>I am going to <span class="answer">translate</span> his new novel.</li>
+        <li>The plants and animals on that island have evolved <span class="answer">uniquely</span>.</li>
+        <li>I was <span class="answer">somewhat</span> surprised to see him at the hospital.</li>
+        <li>My father likes <span class="answer">old-fashioned</span> American cars.</li>
+        <li>These windows open <span class="answer">automatically</span> when it is sunny.</li>
+      </ol>
+    </div>
+
+    <div class="block">
+      <h3>② Idioms & Expressions <span class="tag">表現</span></h3>
+      <ol>
+        <li>Please <span class="answer">pay attention to</span> the airport announcements.</li>
+        <li><span class="answer">In short</span>, he is a man of few words.</li>
+        <li>She repeated what I said <span class="answer">word for word</span>.</li>
+      </ol>
+    </div>
+
+    <div class="block">
+      <h3>③ Grammar <span class="tag">未来進行形 / be to do</span></h3>
+      <ol>
+        <li>I <span class="answer">will be climbing</span> Mt. Fuji at this time tomorrow.</li>
+        <li>We will <span class="answer">be visiting</span> Kinkaku-ji temple on the last day of the tour.</li>
+        <li>Investigation teams <span class="answer">are to</span> meet the victims next week.</li>
+        <li>When I first saw him, I felt I <span class="answer">was going to get</span> married to him someday.</li>
+      </ol>
+      <details open><summary>解説</summary><div class="explain">未来進行形は「未来のある時点で〜しているところ」を表します。be to do は「予定」を表します。was going to は「〜することになりそうだ、〜するつもりだった」という過去から見た未来です。</div></details>
+    </div>
+
+    <div class="block">
+      <h3>④ イラスト問題</h3>
+      <ol>
+        <li>I'd love to, but I <span class="answer">will be watching a movie</span> with Carrie at that time.</li>
+        <li>Could you make it a little earlier? I <span class="answer">will be having dinner</span> at that time.</li>
+        <li>Yes. I <span class="answer">will be relaxing by the sea</span> at this time next week.</li>
+      </ol>
+    </div>
+
+    <div class="block">
+      <h3>⑤ Comprehension <span class="tag">内容一致</span></h3>
+      <table>
+        <tr><th>番号</th><th>答え</th><th>理由</th></tr>
+        <tr><td>(1)</td><td class="tf false">F</td><td>日本の狂言一座に誘われたのではなく、彼自身がチェコで一座を始めました。</td></tr>
+        <tr><td>(2)</td><td class="tf true">T</td><td>どの狂言を選ぶかについて、たくさん話し合いました。</td></tr>
+        <tr><td>(3)</td><td class="tf true">T</td><td>古い日本語の響きに近づけるため、少し古風なチェコ語も使います。</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <section class="part answers" id="part3">
+    <h2>Part 3</h2>
+    <div class="block">
+      <h3>① New Words <span class="tag">単語</span></h3>
+      <ol>
+        <li>The novel describes life in ancient <span class="answer">Egypt</span>.</li>
+        <li>A great player also knows his own <span class="answer">weakness</span>.</li>
+        <li>The war shows the <span class="answer">foolishness</span> of human beings.</li>
+        <li>The stepmother treated Cinderella like a <span class="answer">servant</span>.</li>
+        <li>She sometimes <span class="answer">pretends</span> that she has a fever.</li>
+        <li>I cannot <span class="answer">resist</span> sweets.</li>
+        <li>My father often sings a popular <span class="answer">tune</span> while driving.</li>
+        <li>The technician did not <span class="answer">detect</span> any problem with the machine.</li>
+      </ol>
+    </div>
+
+    <div class="block">
+      <h3>② Idioms & Expressions <span class="tag">表現</span></h3>
+      <ol>
+        <li>The job is great <span class="answer">in terms of</span> salary, but the office is too far from my house.</li>
+        <li><span class="answer">Even though</span> my grandmother is over 90 years old, she is still very active.<br><span class="jp">Although でも意味は合いますが、本文表現に合わせるなら Even though。</span></li>
+        <li>Those two cultures <span class="answer">have something in common</span> with each other.</li>
+      </ol>
+    </div>
+
+    <div class="block">
+      <h3>③ Comprehension <span class="tag">内容一致</span></h3>
+      <table>
+        <tr><th>番号</th><th>答え</th><th>理由</th></tr>
+        <tr><td>(1)</td><td class="tf true">T</td><td>狂言は人間の弱さや愚かさを描くので、どの国の人にも理解できると言っています。</td></tr>
+        <tr><td>(2)</td><td class="tf false">F</td><td>太郎は黙っているのではなく、声を変えて、家にいないふりをします。</td></tr>
+        <tr><td>(3)</td><td class="tf false">F</td><td>太郎は音楽が好きだからではなく、思わず歌や踊りに加わってしまい、見つかります。</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <section class="part answers" id="part4">
+    <h2>Part 4</h2>
+    <div class="block">
+      <h3>① New Words <span class="tag">単語</span></h3>
+      <ol>
+        <li>In 2004, Kumano-kodo was <span class="answer">registered</span> as a World Heritage Site.</li>
+        <li>His latest tune is really <span class="answer">awesome</span>.</li>
+        <li>The temperature of the water is <span class="answer">supposed</span> to be kept below 20 degrees Celsius.</li>
+        <li>This chemical has a <span class="answer">significant</span> impact on our health.</li>
+        <li>That country has many <span class="answer">repressive</span> laws.</li>
+        <li>They are building a peaceful nation under a new <span class="answer">regime</span>.</li>
+        <li>His next <span class="answer">objective</span> is to win at Wimbledon.</li>
+        <li>Working hard is <span class="answer">fundamental</span> for your success.</li>
+      </ol>
+    </div>
+
+    <div class="block">
+      <h3>② Idioms & Expressions <span class="tag">表現</span></h3>
+      <ol>
+        <li>“What are you going to do this weekend?” “<span class="answer">Let me see.</span> I'll check my schedule.”</li>
+        <li><span class="answer">Regardless of</span> your age or gender, physical training is very important.</li>
+      </ol>
+    </div>
+
+    <div class="block">
+      <h3>③ Comprehension <span class="tag">内容一致</span></h3>
+      <table>
+        <tr><th>番号</th><th>答え</th><th>理由</th></tr>
+        <tr><td>(1)</td><td class="tf true">T</td><td>日本が600年以上狂言を守ってきたことはすばらしい、と言っています。</td></tr>
+        <tr><td>(2)</td><td class="tf false">F</td><td>チェコでは、抑圧的な体制の下で多くの文化遺産を失ったと言っています。</td></tr>
+        <tr><td>(3)</td><td class="tf true">T</td><td>狂言を通して、日本とヨーロッパ文化の橋渡しをしたいと述べています。</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <section class="part">
+    <h2>本文の重要表現まとめ</h2>
+    <table>
+      <tr><th>表現</th><th>意味</th><th>ポイント</th></tr>
+      <tr><td>be fascinated by ~</td><td>〜に魅了される</td><td>受け身の形でよく使う。</td></tr>
+      <tr><td>be eager to do</td><td>〜したくてたまらない</td><td>want to より強い気持ち。</td></tr>
+      <tr><td>be passed down</td><td>受け継がれる</td><td>伝統・文化・話などに使う。</td></tr>
+      <tr><td>pay attention to ~</td><td>〜に注意を払う</td><td>to は前置詞なので、後ろは名詞か動名詞。</td></tr>
+      <tr><td>word for word</td><td>一語一句</td><td>translate word for word = 直訳する。</td></tr>
+      <tr><td>in terms of ~</td><td>〜の点では</td><td>話題をしぼるときに使う。</td></tr>
+      <tr><td>regardless of ~</td><td>〜に関係なく</td><td>regardless of age = 年齢に関係なく。</td></tr>
+      <tr><td>act as a bridge between A and B</td><td>AとBの橋渡しをする</td><td>文化交流の文で使いやすい。</td></tr>
+    </table>
+  </section>
+</div>
+</body>
+</html>
